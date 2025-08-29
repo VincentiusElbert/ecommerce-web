@@ -1,10 +1,19 @@
 // src/App.tsx
+<<<<<<< HEAD
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './layouts/header/Header'; // PATH DIUBAH DI SINI!
 import HomePage from './pages/HomePage';
 import { SearchProvider } from './context/SearchContext';
 import ProductDetailPage from './pages/ProductDetailPage';
 import { CategoryFilterProvider } from './context/CategoryFilterContext';
+=======
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from "./layouts/header/Header"; // PATH DIUBAH DI SINI!
+import HomePage from "./pages/HomePage";
+import { SearchProvider } from "./context/SearchContext";
+import ProductDetailPage from "./pages/ProductDetailPage";
+import { CategoryFilterProvider } from "./context/CategoryFilterContext";
+>>>>>>> 58c57d423e2e89a41f27b98bc18e9c5ccea2392e
 // import ProductsPage from "./pages/ProductsPage";
 // import AboutPage from "./pages/AboutPage";
 // import ContactPage from "./pages/ContactPage";
